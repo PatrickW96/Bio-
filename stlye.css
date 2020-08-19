@@ -1,0 +1,61 @@
+body {
+
+        /* As you can see I am already adding more properties to the body selector than I did in bio.html. As you can seeing 
+        subtracting all margin from the body and h1 element allows the h1 tag to go all the way to the top. Most props are the same.
+        I was not to far off.*/
+
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    color: #efeee7;
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+a {
+    color: #d21034;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto; 
+
+    /* As the women says in the video "first were going to take away any margin and auto center everything" */
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+    /* Since we defined the widths of both id's to equal 100% they can now both fit on the page together. */ 
+
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+}
